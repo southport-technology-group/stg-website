@@ -11,20 +11,23 @@ const IndexPage = () => (
   <Layout>
     <SEO title="STG" />
     {/* <Link to="/page-2/">Go to page 2</Link> <br /> */}
-    <section className="bg-blue-200 relative">
+    <section className="bg-blue-700 relative text-white">
       <div className="bg-blue-700 absolute h-full top-0 right-0 bottom-0 l-auto w-0 lg:w-4/12" />
       <div className="lg:container flex flex-wrap lg:flex-nowrap mx-auto">
         <div className="order-2 lg:order-1 w-100 lg:w-7/12 px-5 py-10 lg:py-40">
           <h1 className="text-3xl lg:text-5xl mb-4">
             Product Partners
           </h1>
-          <p className="text-2xl mb-6">
+          <p className="text-2xl mb-10">
             Pragmatic product experts and software engineers committed to helping your business thrive
             {/* We build products that grow your business */}
           </p>
-          <a href="/contact" className="bg-blue-700 text-white hover:shadow-xl rounded py-3 px-5 font-bold">
+          <a href="/contact" className="border-2 border-red-400 hover:bg-red-400 text-white hover:shadow-xl py-3 px-5 font-bold">
             Start a Conversation
           </a>
+          {/* <a href="/contact" className="bg-red-400 text-white hover:shadow-xl rounded py-3 px-5 font-bold">
+            Start a Conversation
+          </a> */}
         </div>
         <div className="order-1 lg:order-2 w-100 lg:w-5/12 lg:pt-20 lg:ml-20 lg:-mb-20">
           <img className="relative" src={CollaborationImg} alt="Collaborating on a sketch" />

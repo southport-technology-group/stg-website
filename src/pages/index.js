@@ -32,7 +32,7 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="lg:container mx-auto mt-10 md:mt-20 lg:mt-40 px-5">
+    <section className="lg:container mx-auto mt-10 md:mt-20 lg:mt-30 px-5">
       <h2 className="text-3xl lg:text-5xl mb-4">
         Services
       </h2>

@@ -3,12 +3,21 @@
 @tailwind utilities;
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   color: #00486d;
   background-color: #f2f6f7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#gatsby-focus-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 h1,
@@ -17,6 +26,5 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Cairo';
   font-weight: 700;
 }

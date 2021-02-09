@@ -1,19 +1,17 @@
 import React from "react"
-// import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import TypingAtComputer from "../images/typing-at-computer.jpg"
 import PointingAtComputerWide from "../images/pointing-at-computer-wide.jpg"
-// import IMDTechnicalDiligence from "../images/IMD-technical-diligence.pdf"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="STG" />
     <section className="bg-blue-200 relative">
       <div className="hidden md:block bg-blue-700 absolute h-full top-0 right-0 bottom-0 l-auto w-0 md:w-4/12" />
-      <div className="lg:container mx-auto flex flex-wrap md:flex-nowrap xl:items-center">
-        <div className="w-100 md:w-7/12 px-5 py-20 md:px-20 lg:pr-40 md:py-20 xl:py-32">
+      <div className="lg:container mx-auto flex flex-wrap md:flex-nowrap items-center">
+        <div className="w-100 md:w-7/12 px-5 py-10 md:px-20 lg:pr-40 lg:py-20 xl:py-32">
           <h1 className="text-4xl lg:text-5xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
             Custom Product & Software Development
           </h1>
@@ -42,7 +40,7 @@ const IndexPage = () => (
             Our prices and terms are set up-front. No long-term contracts, no billing by the hour. Simple proposals and on-time delivery.
           </p>
         </div>
-        <div className="md:grid md:grid-cols-3 md:gap-10">
+        <div className="lg:grid lg:grid-cols-3 lg:gap-10">
           <div className="bg-white border border-blue-200 p-10 shadow-xl mb-10">
             <div className="flex justify-center mb-10">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="64px" height="64px" stroke="currentColor">
@@ -62,7 +60,7 @@ const IndexPage = () => (
             </div>
             <h4 className="text-lg mb-2">Experimentation & Conversion Rate Optimization</h4>
             <p>
-              We help you identify meaningful customer problems, solve those problems, and drive incremental revenue for your business through experimentation and optimization.
+              We help you identify meaningful customer problems, experiment with solutions, and drive incremental revenue for your business through iteration and optimization.
             </p>
           </div>
           <div className="bg-white border border-blue-200 p-10 shadow-xl mb-10">
@@ -73,8 +71,7 @@ const IndexPage = () => (
             </div>
             <h4 className="text-lg mb-2">Technical & Product Due Diligence</h4>
             <p>
-              We work with business buyers to analyze the quality of an acquisition target's product & technology. Download a preview of a technical diligence report.
-              {/* We work with business buyers to analyze the quality of an acquisition target's product & technology. Download a preview of a <a href={IMDTechnicalDiligence} download="IMD Technical Due Diligence">technical diligence report</a>. */}
+              We work with business buyers to analyze the quality of an acquisition target's product & technology.
             </p>
           </div>
         </div>
@@ -82,14 +79,14 @@ const IndexPage = () => (
     </section>
 
     <section className="lg:container mx-auto md:my-28 md:px-20">
-      <div className="flex flex-wrap md:flex-nowrap md:items-end relative">
-        <img className="w-full md:w-9/12" src={PointingAtComputerWide} alt="Two people looking at computer together" />
-        <div className="bg-blue-700 p-14 z-10 md:absolute md:right-0 md:bottom-0 md:w-5/12 xl:w-4/12">
+      <div className="flex flex-wrap lg:flex-nowrap lg:items-end relative">
+        <img className="w-full lg:w-8/12 xl:w-9/12" src={PointingAtComputerWide} alt="Two people looking at computer together" />
+        <div className="bg-blue-700 p-14 z-10 lg:absolute lg:right-0 lg:bottom-0 lg:w-6/12 xl:w-4/12">
           <h2 className="text-2xl lg:text-4xl text-blue-200">
             How We're Different
           </h2>
           <span className="border-b-2 border-blue-400 w-24 my-5 block"></span>
-          <p className="text-blue-100 text-xl">
+          <p className="text-blue-100 text-lg xl:text-xl">
             We deliver revenue-driving product improvements and simple, low-maintenance software solutions at a fixed price.
             <br/>
             <br/>

@@ -35,7 +35,7 @@ const About = () => (
       </div>
     </section>
 
-    <section className="bg-blue-100 py-28 md:mt-28">
+    <section className="bg-blue-100 py-10 md:py-28 md:mt-28">
       <div className="lg:container mx-auto px-5 md:px-20">
         <h2 className="text-3xl lg:text-5xl mb-5 md:mb-10">
           Team

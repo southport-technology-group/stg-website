@@ -14,7 +14,7 @@ const Contact = () => (
         </h1>
       </div>
       <form className="mt-10" method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
-        <div className="bg-white border border-blue-100 p-10 shadow-xl mb-10 md:w-8/12 lg:w-6/12">
+        <div className="bg-white border border-blue-100 p-10 md:shadow-xl mb-10 md:w-8/12 lg:w-6/12">
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
           <label className="block mb-5">

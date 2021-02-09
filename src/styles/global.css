@@ -4,8 +4,7 @@
 
 body {
   font-weight: 400;
-  color: #00486d;
-  background-color: #f2f6f7;
+  color: #004D6E;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -27,4 +26,8 @@ h4,
 h5,
 h6 {
   font-weight: 700;
+}
+
+::selection {
+  background: #E4ECF0;
 }

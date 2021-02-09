@@ -20,7 +20,7 @@ const CaseStudies = () => (
       <div className="md:grid md:grid-cols-2 md:gap-20">
         <div className="bg-white border border-blue-200 shadow-xl mb-10">
           <img className="w-100" src={PRco} alt="Car driving swiftly" />
-          <div className="p-10">
+          <div className="p-5 md:p-10">
             <h4 className="text-xl mb-2">PRco</h4>
             <p className="lg:text-2xl mb-10">
               Transforming an automobile service contract administrator through automation.
@@ -33,7 +33,7 @@ const CaseStudies = () => (
         </div>
         <div className="bg-white border border-blue-200 shadow-xl mb-10">
           <img className="w-100" src={VerdeLighting} alt="Lights in restaurant" />
-          <div className="p-10">
+          <div className="p-5 md:p-10">
             <h4 className="text-xl mb-2">Verde Energy Efficiency Experts</h4>
             <p className="lg:text-2xl mb-10">
               Streamlining and automating the sales process for a LED retrofitting and energy efficiency business.
@@ -46,7 +46,7 @@ const CaseStudies = () => (
         </div>
         <div className="bg-white border border-blue-200 shadow-xl mb-10">
           <img className="w-100" src={IMDApi} alt="Commercial office building" />
-          <div className="p-10">
+          <div className="p-5 md:p-10">
             <h4 className="text-xl mb-2">Technical Due Diligence</h4>
             <p className="lg:text-2xl mb-10">
               Evaluating the Investor Market Data API code base for a potential acquirer.
@@ -60,7 +60,7 @@ const CaseStudies = () => (
       </div>
     </section>
 
-    <section className="bg-blue-200 py-28 mt-28">
+    <section className="bg-blue-200 py-20 lg:py-28 mt-20 lg:mt-28">
       <div className="lg:container mx-auto px-5 md:px-20">
         <div className="text-center">
           <h2 className="text-2xl lg:text-4xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">

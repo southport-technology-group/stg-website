@@ -24,12 +24,12 @@ const About = () => (
             We do not charge by the hour.  We won't build what you don't have budget for. Our reward is customer alignment and many clients coming back for additional projects.
           </p>
         </div>
-        <div className="w-100 md:w-6/12 lg:w-5/12 bg-blue-700 p-10 lg:p-20 md:ml-20">
-          <h2 className="text-6xl md:text-8xl text-blue-400">25</h2>
+        <div className="w-100 md:w-6/12 lg:w-5/12 bg-blue-700 px-5 py-10 md:p-10 lg:p-20 md:ml-20">
+          <h2 className="text-6xl md:text-5xl xl:text-8xl text-blue-400">25</h2>
           <p className="text-blue-100 text-xl pt-4">combined years of product & software experience</p>
-          <h2 className="text-6xl md:text-8xl text-blue-400 mt-20">95%</h2>
+          <h2 className="text-6xl md:text-5xl xl:text-8xl text-blue-400 mt-20">95%</h2>
           <p className="text-blue-100 text-xl pt-4">of customers return for additional projects</p>
-          <h2 className="text-6xl md:text-8xl text-blue-400 mt-20">100M+</h2>
+          <h2 className="text-6xl md:text-5xl xl:text-8xl text-blue-400 mt-20">100M+</h2>
           <p className="text-blue-100 text-xl pt-4">in incremental revenue driven</p>
         </div>
       </div>
@@ -42,7 +42,7 @@ const About = () => (
         </h2>
         <div>
           <div className="md:grid md:grid-cols-2 md:gap-20">
-            <div className="bg-white p-10 shadow-xl mb-20 md:mb-0">
+            <div className="bg-white p-5 md:p-10 shadow-xl mb-20 md:mb-0">
               <h4 className="text-2xl lg:text-4xl mb-2">Trevor</h4>
               <p className="lg:text-2xl mb-10">
                 Partner
@@ -53,7 +53,7 @@ const About = () => (
                 He has an MBA from London Business School and an MBA from Columbia Business School.
               </p>
             </div>
-            <div className="bg-white p-10 shadow-xl">
+            <div className="bg-white p-5 md:p-10 shadow-xl">
               <h4 className="text-2xl lg:text-4xl mb-2">Nicholas</h4>
               <p className="lg:text-2xl mb-10">
                 Partner
@@ -70,7 +70,7 @@ const About = () => (
       </div>
     </section>
 
-    <section className="bg-blue-200 py-28">
+    <section className="bg-blue-200 py-20 lg:py-28">
       <div className="lg:container mx-auto px-5 md:px-20">
         <div className="text-center">
           <h2 className="text-2xl lg:text-4xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">

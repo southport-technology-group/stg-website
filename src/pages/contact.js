@@ -7,12 +7,14 @@ const Contact = () => (
   <Layout>
     <SEO title="Contact" />
     <section className="lg:container mx-auto mt-10 md:px-20 md:my-20">
-      <p className="md:text-xl uppercase tracking-wide font-bold text-blue-400">Contact Us</p>
-      <h1 className="text-3xl md:text-5xl mb-10 leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
-        Let's Chat
-      </h1>
+      <div className="px-5 md:px-0">
+        <p className="md:text-xl uppercase tracking-wide font-bold text-blue-400">Contact Us</p>
+        <h1 className="text-3xl md:text-5xl mb-10 leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
+          Let's Chat
+        </h1>
+      </div>
       <form className="mt-10" method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
-        <div className="bg-white p-10 shadow-xl mb-10 md:w-8/12 lg:w-6/12">
+        <div className="bg-white border border-blue-100 p-10 shadow-xl mb-10 md:w-8/12 lg:w-6/12">
           <input type="hidden" name="bot-field" />
           <input type="hidden" name="form-name" value="contact" />
           <label className="block mb-5">

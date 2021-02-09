@@ -25,7 +25,7 @@ const CaseStudies = () => (
             <p className="lg:text-2xl mb-10">
               Transforming an automobile service contract administrator through automation.
             </p>
-            <a href={PRcoPDF} target="_blank" rel="noreferrer noopener" className="inline-flex items-center">
+            <a href={PRcoPDF} target="_blank" rel="noreferrer noopener" className="inline-flex items-center border-b border-blue-700 border-opacity-0 lg:hover:border-opacity-100 transition-all">
               View PDF of case study
               <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
             </a>
@@ -38,7 +38,7 @@ const CaseStudies = () => (
             <p className="lg:text-2xl mb-10">
               Streamlining and automating the sales process for a LED retrofitting and energy efficiency business.
             </p>
-            <a href={VerdePDF} target="_blank" rel="noreferrer noopener" className="inline-flex items-center">
+            <a href={VerdePDF} target="_blank" rel="noreferrer noopener" className="inline-flex items-center border-b border-blue-700 border-opacity-0 lg:hover:border-opacity-100 transition-all">
               View PDF of case study
               <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
             </a>
@@ -47,11 +47,11 @@ const CaseStudies = () => (
         <div className="bg-white border border-blue-200 shadow-xl mb-10">
           <img className="w-100" src={IMDApi} alt="Commercial office building" />
           <div className="p-10">
-            <h4 className="text-lg mb-2">Technical Due Diligence</h4>
-            <p className="lg:text-xl mb-10">
+            <h4 className="text-xl mb-2">Technical Due Diligence</h4>
+            <p className="lg:text-2xl mb-10">
               Evaluating the Investor Market Data API code base for a potential acquirer.
             </p>
-            <a href={IMDAPIPDF} target="_blank" rel="noreferrer noopener" className="inline-flex items-center">
+            <a href={IMDAPIPDF} target="_blank" rel="noreferrer noopener" className="inline-flex items-center border-b border-blue-700 border-opacity-0 lg:hover:border-opacity-100 transition-all">
               View PDF of case study
               <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"></path><path d="M12 5l7 7-7 7"></path></svg>
             </a>

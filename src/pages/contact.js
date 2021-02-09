@@ -19,19 +19,19 @@ const Contact = () => (
           <input type="hidden" name="form-name" value="contact" />
           <label className="block mb-5">
             Name
-            <input type="text" name="name" id="name" className="w-full bg-white border border-blue-400 focus:border-blue-700 focus:ring-2 focus:ring-blue-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+            <input type="text" name="name" id="name" className="w-full bg-white border border-blue-400 mt-1 focus:border-blue-700 focus:ring-2 focus:ring-blue-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
           </label>
           <label className="block mb-5">
             Email
-            <input type="email" name="email" id="email" className="w-full bg-white border border-blue-400 focus:border-blue-700 focus:ring-2 focus:ring-blue-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+            <input type="email" name="email" id="email" className="w-full bg-white border border-blue-400 mt-1 focus:border-blue-700 focus:ring-2 focus:ring-blue-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
           </label>
           <label className="block mb-5">
             Subject
-            <input type="text" name="subject" id="subject" className="w-full bg-white border border-blue-400 focus:border-blue-700 focus:ring-2 focus:ring-blue-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+            <input type="text" name="subject" id="subject" className="w-full bg-white border border-blue-400 mt-1 focus:border-blue-700 focus:ring-2 focus:ring-blue-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
           </label>
           <label className="block mb-5">
             Message
-            <textarea name="message" id="message" rows="5" className="w-full bg-white border border-blue-400 focus:border-blue-700 focus:ring-2 focus:ring-blue-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+            <textarea name="message" id="message" rows="5" className="w-full bg-white border border-blue-400 mt-1 focus:border-blue-700 focus:ring-2 focus:ring-blue-200 text-base outline-none text-blue-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
           </label>
           <div className="flex justify-between items-center">
             <button type="submit" className="bg-blue-700 text-white hover:shadow-xl rounded py-2 px-4 font-bold">Send</button>

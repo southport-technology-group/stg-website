@@ -9,9 +9,12 @@ const Contact = () => (
     <section className="lg:container mx-auto mt-10 md:px-20 md:my-20">
       <div className="px-5 md:px-0">
         <p className="md:text-xl uppercase tracking-wide font-bold text-blue-400">Contact Us</p>
-        <h1 className="text-3xl md:text-5xl mb-10 leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
-          Let's Chat
+        <h1 className="text-3xl md:text-5xl mb-2 leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
+          We Can Help
         </h1>
+        <p className="text-xl lg:text-2xl mb-10">
+          Talk to a pro about saving time and growing your business.
+        </p>
       </div>
       <form className="mt-10" method="post" netlify-honeypot="bot-field" data-netlify="true" name="contact">
         <div className="bg-white border border-blue-100 p-5 md:p-10 md:shadow-xl mb-10 md:w-8/12 lg:w-6/12">

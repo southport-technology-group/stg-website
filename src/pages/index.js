@@ -2,6 +2,7 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import FooterCTA from "../components/footer-call-to-action"
 import TypingAtComputer from "../images/typing-at-computer.jpg"
 import PointingAtComputerWide from "../images/pointing-at-computer-wide.jpg"
 
@@ -20,7 +21,8 @@ const IndexPage = () => (
             We build products tailored to your needs that will save you time, make you money, and accelerate your growth.
           </p>
           <a href="/contact" className="inline-block text-xl bg-blue-700 text-white hover:shadow-xl py-3 px-5 font-bold">
-            Let's Collaborate
+
+            Get a Free Consultation
           </a>
         </div>
         <div className="w-100 md:w-5/12 md:pt-10 lg:pt-20 xl:-mb-20 md:pr-20">
@@ -96,22 +98,8 @@ const IndexPage = () => (
       </div>
     </section>
 
-    <section className="bg-blue-200 py-20 lg:py-28">
-      <div className="lg:container mx-auto px-5 md:px-20">
-        <div className="text-center">
-          <h2 className="text-2xl lg:text-4xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
-            Need custom product or software?
-          </h2>
-          <span className="border-b-2 border-blue-400 w-24 my-5 block mx-auto"></span>
-          <p className="text-xl lg:text-2xl mb-10">
-            Get in touch for a free consultation.
-          </p>
-          <a href="/contact" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
-            Let's Collaborate
-          </a>
-        </div>
-      </div>
-    </section>
+    <FooterCTA />
+
   </Layout>
 )
 

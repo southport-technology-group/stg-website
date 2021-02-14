@@ -82,7 +82,7 @@ const IndexPage = () => (
 
     <section className="lg:container mx-auto md:my-28 md:px-20 lg:mb-38">
       <div className="lg:flex lg:items-end relative">
-        <img className="w-full lg:w-8/12 xl:w-9/12" src={PointingAtComputerWide} alt="Two people looking at computer together" />
+        <img className="w-full lg:w-9/12" src={PointingAtComputerWide} alt="Two people looking at computer together" />
         <div className="bg-blue-700 p-10 xl:p-14 z-10 lg:absolute lg:right-0 xl:right-20 lg:-bottom-10 lg:w-5/12 xl:w-4/12">
           <h2 className="text-2xl lg:text-4xl text-blue-200">
             How We're Different

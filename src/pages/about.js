@@ -44,26 +44,26 @@ const About = () => (
         <div>
           <div className="md:grid md:grid-cols-2 md:gap-20">
             <div className="bg-white p-5 md:p-10 shadow-xl mb-20 md:mb-0">
-              <h4 className="text-2xl lg:text-4xl mb-2">Trevor</h4>
+              <h4 className="text-2xl lg:text-4xl mb-2">Trevor Ewen</h4>
               <p className="lg:text-2xl mb-10">
-                Partner
+                Chief Executive Officer
               </p>
               <p>
                 Trevor is an experienced software engineer and project manager.
-                He has overseen full-stack teams in clean energy, insurance, finance, and media. Notable engagements include Morgan Stanley, HBO, Bloomberg, Honest Buildings (now Procore), RunEnergy, Black Bear Energy, and PRco USA.
+                He's overseen full-stack teams in clean energy, insurance, finance, and media. Notable engagements include Morgan Stanley, HBO, Bloomberg, Honest Buildings (now Procore), RunEnergy, Black Bear Energy, and PRco USA.
                 He has an MBA from London Business School and an MBA from Columbia Business School.
               </p>
             </div>
             <div className="bg-white p-5 md:p-10 shadow-xl">
-              <h4 className="text-2xl lg:text-4xl mb-2">Nicholas</h4>
+              <h4 className="text-2xl lg:text-4xl mb-2">Nicholas Evans</h4>
               <p className="lg:text-2xl mb-10">
-                Partner
+                Chief Product Officer
               </p>
               <p>
-                Nicholas is an experienced product manager & UX designer.
-                He was the fifth employee and first designer at a marketplace ecommerce startup that he helped grow to tens of millions in revenue.
-                He wore many hats there – Senior Product Designer, Director of UX, Product Manager, Senior Product Manager.
-                Prior to Reverb, he was a design & innovation consultant. Notable engagements include SC Johnson, GE, Samsung.
+                Nicholas is a product manager & UX designer.
+                As the fifth employee at Reverb.com, he helped lead the product organization and grow Reverb from a few thousand in revenue to tens of millions and an eventual sale to Etsy.
+                He has deep experience in e-commerce and marketplaces and has run hundreds of product experiments.
+                Prior to Reverb, he was a design & innovation consultant at Gravitytank and IA Collaborative. Notable engagements include GE, Samsung, SC Johnson,  OfficeMax, and ClubCorp. 
               </p>
             </div>
           </div>

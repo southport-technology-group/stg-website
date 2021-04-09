@@ -3,6 +3,8 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import FooterCTA from "../components/footer-call-to-action"
+import TrevorPic from "../images/trevor-profile.png"
+import NicholasPic from "../images/nicholas-profile.png"
 
 const About = () => (
   <Layout>
@@ -13,11 +15,7 @@ const About = () => (
           <p className="md:text-xl uppercase tracking-wide font-bold text-blue-400">About Us</p>
           <h1 className="text-3xl md:text-5xl leading-tight sm:leading-tight md:leading-tight lg:leading-tight">
             Solutions Tailored To Your Unique Needs
-          </h1>
-          <span className="border-b-2 border-blue-400 w-24 my-5 block"></span>
-          <p className="text-xl md:text-2xl">
-            We dig in with you to identify revenue-driving products, opportunities for automation, and ways to streamline your operations with software. Then, we'll help you craft the ideal solution.
-          </p>
+          </h1> <span className="border-b-2 border-blue-400 w-24 my-5 block"></span> <p className="text-xl md:text-2xl"> We dig in with you to identify revenue-driving products, opportunities for automation, and ways to streamline your operations with software. Then, we'll help you craft the ideal solution. </p>
           <h2 className="text-2xl md:text-3xl mt-10 md:mt-20 mb-3 md:mb-3">
             Our Pricing Commitment
           </h2>
@@ -30,8 +28,6 @@ const About = () => (
           <p className="text-blue-100 text-xl pt-4">combined years of product & software experience</p>
           <h2 className="text-6xl md:text-5xl xl:text-8xl text-blue-400 mt-20">95%</h2>
           <p className="text-blue-100 text-xl pt-4">of customers return for additional projects</p>
-          <h2 className="text-6xl md:text-5xl xl:text-8xl text-blue-400 mt-20">100M+</h2>
-          <p className="text-blue-100 text-xl pt-4">in incremental revenue driven</p>
         </div>
       </div>
     </section>
@@ -44,8 +40,9 @@ const About = () => (
         <div>
           <div className="md:grid md:grid-cols-2 md:gap-20">
             <div className="bg-white p-5 md:p-10 shadow-xl mb-20 md:mb-0">
-              <h4 className="text-2xl lg:text-4xl mb-2">Trevor Ewen</h4>
-              <p className="lg:text-2xl mb-10">
+              <img className="mx-auto mb-5" src={TrevorPic} alt="Trevor Ewen" />
+              <h4 className="text-xl lg:text-3xl text-center mb-2">Trevor Ewen</h4>
+              <p className="lg:text-xl text-center mb-5">
                 Chief Executive Officer
               </p>
               <p>
@@ -55,15 +52,16 @@ const About = () => (
               </p>
             </div>
             <div className="bg-white p-5 md:p-10 shadow-xl">
-              <h4 className="text-2xl lg:text-4xl mb-2">Nicholas Evans</h4>
-              <p className="lg:text-2xl mb-10">
+              <img className="mx-auto mb-5" src={NicholasPic} alt="Nicholas Evans" />
+              <h4 className="text-xl lg:text-3xl text-center mb-2">Nicholas Evans</h4>
+              <p className="lg:text-xl text-center mb-5">
                 Chief Product Officer
               </p>
               <p>
                 Nicholas is a product manager & UX designer.
                 As the fifth employee at Reverb.com, he helped lead the product organization and grow Reverb from a few thousand in revenue to tens of millions and an eventual sale to Etsy.
                 He has deep experience in e-commerce and marketplaces and has run hundreds of product experiments.
-                Prior to Reverb, he was a design & innovation consultant at Gravitytank and IA Collaborative. Notable engagements include GE, Samsung, SC Johnson,  OfficeMax, and ClubCorp. 
+                Prior to Reverb, he was a design & innovation consultant at Gravitytank and IA Collaborative. Notable engagements include GE, Samsung, SC Johnson,  OfficeMax, and ClubCorp.
               </p>
             </div>
           </div>

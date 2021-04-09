@@ -41,7 +41,7 @@ const About = () => (
           <div className="md:grid md:grid-cols-2 md:gap-20">
             <div className="bg-white p-5 md:p-10 shadow-xl mb-20 md:mb-0">
               <img className="mx-auto mb-5" src={TrevorPic} alt="Trevor Ewen" />
-              <h4 className="text-xl lg:text-3xl text-center mb-2">Trevor Ewen</h4>
+              <h4 className="text-xl lg:text-3xl text-center mb-1">Trevor Ewen</h4>
               <p className="lg:text-xl text-center mb-5">
                 Chief Executive Officer
               </p>
@@ -53,7 +53,7 @@ const About = () => (
             </div>
             <div className="bg-white p-5 md:p-10 shadow-xl">
               <img className="mx-auto mb-5" src={NicholasPic} alt="Nicholas Evans" />
-              <h4 className="text-xl lg:text-3xl text-center mb-2">Nicholas Evans</h4>
+              <h4 className="text-xl lg:text-3xl text-center mb-1">Nicholas Evans</h4>
               <p className="lg:text-xl text-center mb-5">
                 Chief Product Officer
               </p>

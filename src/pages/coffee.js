@@ -2,8 +2,8 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import FooterCTA from "../components/footer-call-to-action"
 import OneHourAssessmentPDF from "../../static/Southport Technology Group - 1-Hour Assessment.pdf"
+import PouringCoffee from "../images/coffee-cup.webp"
 
 const Coffee = () => (
   <Layout>
@@ -26,7 +26,7 @@ const Coffee = () => (
           </p>
           <br />
           <p className="text-xl md:text-2xl">
-            <a href={OneHourAssessmentPDF} target="_blank">
+            <a href={OneHourAssessmentPDF} target="_blank" rel="noreferrer noopener" className="underline lg:hover:text-blue-400">
               Our conversation
             </a>{" "}
             will focus on manual business workflows, data, and system
@@ -34,33 +34,22 @@ const Coffee = () => (
             workflows that can be easily automated and save your business
             hundreds of hours per year.
           </p>
-          <h4 className="text-2xl md:text-3xl mt-10 md:mt-20 mb-3 md:mb-3">
-            <a href="" target="_blank">
+          <div className="mt-10 mb-10">
+            <a href="" target="_blank" rel="noreferrer noopener" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
               Book Now
             </a>
-          </h4>
+          </div>
           <p className="text-xl md:text-2xl">
             As a thanks for your time, we'll send you a{" "}
             <b>$10 Starbucks Gift Card</b> before the meeting. It will be sent
-            to the email you use for the Calendar invite.
+            to the email you use for the calendar invite.
           </p>
         </div>
-        <div className="w-100 md:w-6/12 lg:w-5/12 bg-blue-700 px-5 py-10 md:p-10 lg:p-20 md:ml-20">
-          <h2 className="text-6xl md:text-5xl xl:text-8xl text-blue-400">25</h2>
-          <p className="text-blue-100 text-xl pt-4">
-            combined years of product & software experience
-          </p>
-          <h2 className="text-6xl md:text-5xl xl:text-8xl text-blue-400 mt-20">
-            95%
-          </h2>
-          <p className="text-blue-100 text-xl pt-4">
-            of customers return for additional projects
-          </p>
+        <div className="w-100 md:w-6/12 lg:w-5/12 mt-10 md:mt-0 md:ml-20">
+          <img className="relative w-full" src={PouringCoffee} alt="Free cup of coffee" />
         </div>
       </div>
     </section>
-
-    <FooterCTA />
   </Layout>
 )
 

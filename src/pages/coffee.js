@@ -35,7 +35,7 @@ const Coffee = () => (
             hundreds of hours per year.
           </p>
           <div className="mt-10 mb-10">
-            <a href="" target="_blank" rel="noreferrer noopener" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
+            <a href="https://calendly.com/trevorewen/coffee" target="_blank" rel="noreferrer noopener" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
               Book Now
             </a>
           </div>

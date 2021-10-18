@@ -26,7 +26,12 @@ const Coffee = () => (
           </p>
           <br />
           <p className="text-xl md:text-2xl">
-            <a href={OneHourAssessmentPDF} target="_blank" rel="noreferrer noopener" className="underline lg:hover:text-blue-400">
+            <a
+              href={OneHourAssessmentPDF}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="underline lg:hover:text-blue-400"
+            >
               Our conversation
             </a>{" "}
             will focus on manual business workflows, data, and system
@@ -35,7 +40,12 @@ const Coffee = () => (
             hundreds of hours per year.
           </p>
           <div className="mt-10 mb-10">
-            <a href="https://calendly.com/trevorewen/coffee" target="_blank" rel="noreferrer noopener" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
+            <a
+              href="https://calendly.com/trevorewen/coffee"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5"
+            >
               Book Now
             </a>
           </div>
@@ -46,7 +56,11 @@ const Coffee = () => (
           </p>
         </div>
         <div className="w-100 md:w-6/12 lg:w-5/12 mt-10 md:mt-0 md:ml-20">
-          <img className="relative w-full" src={PouringCoffee} alt="Free cup of coffee" />
+          <img
+            className="relative w-full"
+            src={PouringCoffee}
+            alt="Free cup of coffee"
+          />
         </div>
       </div>
     </section>

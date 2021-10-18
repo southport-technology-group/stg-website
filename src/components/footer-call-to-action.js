@@ -12,7 +12,10 @@ const FooterCTA = () => (
         <p className="text-xl lg:text-2xl mb-10">
           Talk to a pro about saving time and growing your business.
         </p>
-        <Link to="/contact" className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5">
+        <Link
+          to="/contact"
+          className="inline-block text-xl font-bold bg-blue-700 text-white hover:shadow-xl py-3 px-5"
+        >
           Get a Free Consultation
         </Link>
       </div>

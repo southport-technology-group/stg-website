@@ -1,9 +1,9 @@
-import React from "react"
-import FooterCTA from "../components/footer-call-to-action-b"
+import React from "react";
+import FooterCTA from "../components/footer-call-to-action-b";
 
-import SEO from "../components/seo"
-import CleanEnergyImage from "../images/campaigns/renewable-energy-d.jpg"
-import VerdeEnergyEfficiencyExperts from "../components/case-cells/verde-energy-efficiency-experts"
+import SEO from "../components/seo";
+import CleanEnergyImage from "../images/campaigns/renewable-energy-d.jpg";
+import VerdeEnergyEfficiencyExperts from "../components/case-cells/verde-energy-efficiency-experts";
 
 const CleanEnergy = () => {
   return (
@@ -60,4 +60,4 @@ const CleanEnergy = () => {
   )
 }
 
-export default CleanEnergy
+export default CleanEnergy;

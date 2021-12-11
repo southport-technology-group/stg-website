@@ -2,7 +2,7 @@ import React from "react"
 import FooterCTA from "../components/footer-call-to-action-b"
 
 import SEO from "../components/seo"
-import CleanEnergyImage from "../images/campaigns/renewable-energy-optimized.jpg"
+import CleanEnergyImage from "../images/campaigns/renewable-energy-resized-optimized.jpg"
 import VerdeEnergyEfficiencyExperts from "../components/case-cells/verde-energy-efficiency-experts"
 
 const CleanEnergy = () => {

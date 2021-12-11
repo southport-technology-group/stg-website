@@ -2,7 +2,7 @@ import React from "react"
 import FooterCTA from "../components/footer-call-to-action-b"
 
 import SEO from "../components/seo"
-import InsuranceImage from "../images/campaigns/insurance-optimized.jpg"
+import InsuranceImage from "../images/campaigns/insurance-resized-optimized.jpg"
 import PRco from "../components/case-cells/prco"
 
 const Insurance = () => {

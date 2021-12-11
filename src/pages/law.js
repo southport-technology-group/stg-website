@@ -2,7 +2,7 @@ import React from "react"
 import FooterCTA from "../components/footer-call-to-action-b"
 
 import SEO from "../components/seo"
-import LawImage from "../images/campaigns/law-optimized.jpg"
+import LawImage from "../images/campaigns/law-resized-optimized.jpg"
 import SanfordLawFirm from "../components/case-cells/sanford-law-firm"
 
 const Law = () => {

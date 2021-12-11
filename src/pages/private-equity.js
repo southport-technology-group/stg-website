@@ -2,7 +2,7 @@ import React from "react"
 import FooterCTA from "../components/footer-call-to-action-b"
 
 import SEO from "../components/seo"
-import PrivateEquityImage from "../images/campaigns/private-equity-optimized.jpg"
+import PrivateEquityImage from "../images/campaigns/private-equity-resized-optimized.jpg"
 import HavenEquity from "../components/case-cells/haven-equity"
 
 const PrivateEquity = () => {

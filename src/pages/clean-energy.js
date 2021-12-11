@@ -1,9 +1,9 @@
-import React from "react";
-import FooterCTA from "../components/footer-call-to-action-b";
+import React from "react"
+import FooterCTA from "../components/footer-call-to-action-b"
 
-import SEO from "../components/seo";
-import CleanEnergyImage from "../images/campaigns/renewable-energy-d.jpg";
-import VerdeEnergyEfficiencyExperts from "../components/case-cells/verde-energy-efficiency-experts";
+import SEO from "../components/seo"
+import CleanEnergyImage from "../images/campaigns/renewable-energy-optimized.jpg"
+import VerdeEnergyEfficiencyExperts from "../components/case-cells/verde-energy-efficiency-experts"
 
 const CleanEnergy = () => {
   return (
@@ -35,7 +35,7 @@ const CleanEnergy = () => {
               Verde Energy Efficiency Experts
             </h1>{" "}
             <span className="border-b-2 border-blue-400 w-24 my-5 block"></span>{" "}
-            <p className="text-xl md:text-2xl">
+            <p className="text-xl md:text-2xl mb-10">
               {" "}
               In 2018, Southport Technology Group learned the workflow directly
               from the Verde EEE team members. We were keen to outline possible
@@ -60,4 +60,4 @@ const CleanEnergy = () => {
   )
 }
 
-export default CleanEnergy;
+export default CleanEnergy

@@ -1,9 +1,9 @@
-import React from "react";
-import FooterCTA from "../components/footer-call-to-action-b";
+import React from "react"
+import FooterCTA from "../components/footer-call-to-action-b"
 
-import SEO from "../components/seo";
-import PrivateEquityImage from "../images/campaigns/private-equity.jpg";
-import HavenEquity from "../components/case-cells/haven-equity";
+import SEO from "../components/seo"
+import PrivateEquityImage from "../images/campaigns/private-equity-optimized.jpg"
+import HavenEquity from "../components/case-cells/haven-equity"
 
 const PrivateEquity = () => {
   return (
@@ -35,7 +35,7 @@ const PrivateEquity = () => {
               Haven Equity
             </h1>{" "}
             <span className="border-b-2 border-blue-400 w-24 my-5 block"></span>{" "}
-            <p className="text-xl md:text-2xl">
+            <p className="text-xl md:text-2xl mb-10">
               {" "}
               Southport Technology Group developed a lean platform that managed
               Xero connections to Quickbase organizations. Via a task server,
@@ -61,4 +61,4 @@ const PrivateEquity = () => {
   )
 }
 
-export default PrivateEquity;
+export default PrivateEquity

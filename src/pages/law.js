@@ -1,9 +1,9 @@
-import React from "react";
-import FooterCTA from "../components/footer-call-to-action-b";
+import React from "react"
+import FooterCTA from "../components/footer-call-to-action-b"
 
-import SEO from "../components/seo";
-import LawImage from "../images/campaigns/law.jpg";
-import SanfordLawFirm from "../components/case-cells/sanford-law-firm";
+import SEO from "../components/seo"
+import LawImage from "../images/campaigns/law-optimized.jpg"
+import SanfordLawFirm from "../components/case-cells/sanford-law-firm"
 
 const Law = () => {
   return (
@@ -35,7 +35,7 @@ const Law = () => {
               Sanford Law Firm
             </h1>{" "}
             <span className="border-b-2 border-blue-400 w-24 my-5 block"></span>{" "}
-            <p className="text-xl md:text-2xl">
+            <p className="text-xl md:text-2xl mb-10">
               {" "}
               While both Salesforce and Dropbox have sophisticated APIs,
               government systems tend to be more old fashioned. The trickiest
@@ -62,4 +62,4 @@ const Law = () => {
   )
 }
 
-export default Law;
+export default Law

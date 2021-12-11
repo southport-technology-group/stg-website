@@ -1,9 +1,9 @@
 import React from "react"
-import FooterCTA from "../components/footer-call-to-action-b";
+import FooterCTA from "../components/footer-call-to-action-b"
 
-import SEO from "../components/seo";
-import InsuranceImage from "../images/campaigns/insurance.jpg";
-import PRco from "../components/case-cells/prco";
+import SEO from "../components/seo"
+import InsuranceImage from "../images/campaigns/insurance-optimized.jpg"
+import PRco from "../components/case-cells/prco"
 
 const Insurance = () => {
   return (
@@ -35,7 +35,7 @@ const Insurance = () => {
               PRco
             </h1>{" "}
             <span className="border-b-2 border-blue-400 w-24 my-5 block"></span>{" "}
-            <p className="text-xl md:text-2xl">
+            <p className="text-xl md:text-2xl mb-10">
               {" "}
               Since 2014, all new PRco contracts have moved into online rating
               and contract creation. E-Signature adoption is growing every month
@@ -58,4 +58,4 @@ const Insurance = () => {
   )
 }
 
-export default Insurance;
+export default Insurance

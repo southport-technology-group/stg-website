@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import FooterCTA from "../components/footer-call-to-action"
@@ -152,7 +152,17 @@ const IndexPage = () => (
         </div>
       </div>
     </section>
-
+    <section className="lg:container mx-auto md:my-48 md:px-20">
+      <Helmet>
+        <script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js" />
+      </Helmet>
+      <h2 className="text-center text-2xl md:text-3xl lg:text-4xl mt-10 mb-20 md:mt-20 md:mb-6">
+        Read Our Outstanding Reviews
+      </h2>
+      <div className="md:mx-20">
+        <div className="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="8" data-expandifr="true" data-height="auto" data-clutchcompany-id="1787656" />
+      </div>j
+    </section>
     <FooterCTA />
   </Layout>
 )

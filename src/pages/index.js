@@ -1,5 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
+import { withPrefix } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import FooterCTA from "../components/footer-call-to-action"
@@ -154,7 +155,7 @@ const IndexPage = () => (
     </section>
     <section className="lg:container mx-auto md:my-48 md:px-20">
       <Helmet>
-        <script type="text/javascript" src="https://widget.clutch.co/static/js/widget.js" />
+        <script src={withPrefix('clutchco.js')} />
       </Helmet>
       <h2 className="text-center text-2xl md:text-3xl lg:text-4xl mt-10 mb-20 md:mt-20 md:mb-6">
         Our Customers Love Our Work

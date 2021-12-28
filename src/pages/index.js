@@ -161,7 +161,7 @@ const IndexPage = () => (
       </h2>
       <div className="md:mx-20">
         <div className="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="8" data-expandifr="true" data-height="auto" data-clutchcompany-id="1787656" />
-      </div>j
+      </div>
     </section>
     <FooterCTA />
   </Layout>

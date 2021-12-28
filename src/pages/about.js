@@ -104,14 +104,6 @@ const About = () => (
         </div>
       </div>
     </section>
-    <section className="lg:container mx-auto mt-10 md:px-20 md:my-20">
-      <h2 className="text-center text-2xl md:text-3xl lg:text-4xl mt-10 mb-20 md:mt-20 md:mb-6">
-        Read Our Outstanding Reviews
-      </h2>
-      <div className="md:mx-20">
-        <div className="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="4" data-expandifr="true" data-height="auto" data-clutchcompany-id="1787656" />
-      </div>
-    </section>
     <FooterCTA />
   </Layout>
 )

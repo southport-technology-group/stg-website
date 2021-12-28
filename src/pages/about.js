@@ -1,5 +1,4 @@
 import React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import FooterCTA from "../components/footer-call-to-action"
@@ -25,13 +24,19 @@ const About = () => (
             opportunities for automation, and ways to streamline your operations
             with software. Then, we'll help you craft the ideal solution.{" "}
           </p>
-          <h2 className="text-2xl md:text-3xl mt-10 md:mt-20 mb-3 md:mb-3">
+          <h2 className="text-2xl md:text-3xl mt-10 md:mt-20 mb-3">
             Our Pricing Commitment
           </h2>
           <p className="text-md md:text-lg mb-10">
             We do not charge by the hour. We won't build what you don't have
             budget for. Our reward is customer alignment and many clients coming
             back for additional projects.
+          </p>
+          <h2 className="mt-10 md:mt-20">
+            Featured in DesignRush.com's
+          </h2>
+          <p className="mb-10">
+            <a href="https://www.designrush.com/agency/software-development" className="underline">Top Software Development Companies</a>
           </p>
         </div>
         <div className="w-100 md:w-6/12 lg:w-5/12 bg-blue-700 px-5 py-10 md:p-10 lg:p-20 md:ml-20">
@@ -99,7 +104,14 @@ const About = () => (
         </div>
       </div>
     </section>
-
+    <section className="lg:container mx-auto mt-10 md:px-20 md:my-20">
+      <h2 className="text-center text-2xl md:text-3xl lg:text-4xl mt-10 mb-20 md:mt-20 md:mb-6">
+        Read Our Outstanding Reviews
+      </h2>
+      <div className="md:mx-20">
+        <div className="clutch-widget" data-url="https://widget.clutch.co" data-widget-type="4" data-expandifr="true" data-height="auto" data-clutchcompany-id="1787656" />
+      </div>
+    </section>
     <FooterCTA />
   </Layout>
 )

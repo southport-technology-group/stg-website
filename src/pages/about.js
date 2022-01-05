@@ -32,11 +32,14 @@ const About = () => (
             budget for. Our reward is customer alignment and many clients coming
             back for additional projects.
           </p>
-          <h2 className="mt-10 md:mt-20">
-            Featured in DesignRush.com's
-          </h2>
+          <h2 className="mt-10 md:mt-20">Featured in DesignRush.com's</h2>
           <p className="mb-10">
-            <a href="https://www.designrush.com/agency/software-development" className="underline">Top Software Development Companies</a>
+            <a
+              href="https://www.designrush.com/agency/software-development"
+              className="underline"
+            >
+              Top Software Development Companies
+            </a>
           </p>
         </div>
         <div className="w-100 md:w-6/12 lg:w-5/12 bg-blue-700 px-5 py-10 md:p-10 lg:p-20 md:ml-20">

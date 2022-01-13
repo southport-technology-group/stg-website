@@ -33,12 +33,24 @@ const About = () => (
             back for additional projects.
           </p>
           <h2 className="mt-10 md:mt-20">Featured in DesignRush.com's</h2>
-          <p className="mb-10">
+          <p>
             <a
               href="https://www.designrush.com/agency/software-development"
               className="underline"
+              target="_blank"
+              rel="noreferrer"
             >
               Top Software Development Companies
+            </a>
+          </p>
+          <p className="mb-10">
+            <a
+              href="https://www.designrush.com/agency/software-development/minnesota"
+              className="underline"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Top Software Development Companies in Minnesota
             </a>
           </p>
         </div>

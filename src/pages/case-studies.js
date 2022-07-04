@@ -9,6 +9,7 @@ import SanfordLawFirm from "../components/case-cells/sanford-law-firm"
 import VerdeEnergyEfficiencyExperts from "../components/case-cells/verde-energy-efficiency-experts"
 import HavenEquity from "../components/case-cells/haven-equity"
 import TechnicalDueDiligence from "../components/case-cells/technical-due-diligence"
+import RunEnergy from "../components/case-cells/run-energy"
 
 const CaseStudies = () => (
   <Layout>
@@ -21,9 +22,10 @@ const CaseStudies = () => (
         Transforming Businesses
       </h1>
       <div className="md:grid md:grid-cols-2 md:gap-20">
+        <RunEnergy />
+        <HavenEquity />
         <PRco />
         <SanfordLawFirm />
-        <HavenEquity />
         <VerdeEnergyEfficiencyExperts />
         <TechnicalDueDiligence />
       </div>
